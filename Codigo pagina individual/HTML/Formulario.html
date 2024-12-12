@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="../STYLE/Style.css">
+</head>
+<body>
+    <header class="barra">
+        <a href="../HTML/Index.html" class="logo-link" >
+            <img src="../IMG/Bothrops Atrox.jpg" alt="Logo" class="Logo">
+         </a>
+        <h1>Formulario</h1>
+        <nav class="nav-links">
+            <a href="../HTML/Index.html">Inicio</a>
+            <a href="../HTML/Etiquetas.html">Tarjetas</a>
+            <a href="../HTML/Formulario.html">Formulario</a>
+        </nav>
+    </header>
+    <div class="Container5">
+        <h2>Mi Formulario</h2>
+        <Form>
+            <label for="Nombres">Nombres</label>
+            <input type="text" id="Nombres" name="Nombres" required>
+
+            <label for="Correo">Corre</label>
+            <input type="text" id="Correo" name="Correo"required>
+
+            <label for="Telefono">Telefono</label>
+            <input type="tel" id="Telefono" name="Telefono"required maxlength="10">
+
+            <label for="Contraseña">Contraseña</label>
+            <input type="password" id="Contraseña" name="Contraseña"required>
+            
+            <label for="Ciudad">Ciudad</label>
+            <select name="Ciudad" id="Ciudad">
+                <option value="Bogotá">Bogotá</option>
+                <option value="Medellin">Medellin</option>
+                <option value="Cali">Cali</option>
+            </select>
+            <label for="Comentarios">Comentarios</label>
+            <input type="text" name="Comentarios" id="Comentarios">
+            <button type="submit">Enviar</button>
+            <input type="email" name="c" required>
+        </Form>
+    </div>
+</body>
+</html>
